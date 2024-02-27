@@ -1,0 +1,140 @@
+.overlay {
+  position: relative;
+  width: 100vw;
+  height: calc(100vh - 8.8rem);
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.284),
+    rgba(0, 0, 0, 0.5)
+  );
+}
+
+.overlay div {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 10rem;
+}
+
+.overlay p {
+  font-size: 5rem;
+  font-weight: 700;
+
+  max-width: 70rem;
+  color: #fff;
+  text-align: center;
+}
+
+.overlay button {
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  background-color: rgba(57, 197, 57);
+  border: none;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+
+.homeGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 2rem;
+  margin-bottom: 1rem;
+}
+
+.homeJoinUs {
+  row-gap: 1rem;
+}
+
+.homeJoinUsMain {
+  grid-column: 1 / -1;
+
+  background-image: linear-gradient(to top, transparent, white),
+    url("../../images/church-test.webp");
+  background-size: cover;
+  background-position: center;
+  height: 69.8rem;
+  margin: 8rem 2rem 0 2rem;
+  border-radius: 11px;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+}
+
+.homeJoinUsMain > div {
+  color: #000;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  /* margin-top: 7rem; */
+  max-width: 58rem;
+}
+
+.homeJoinUsMain h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.homeJoinUsMain p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+  max-width: 64rem;
+}
+
+.testimonials {
+  color: #1c1c1c;
+  background-color: #f3f3f3;
+}
+
+.testimonials > h2 {
+  font-size: 4.1rem;
+  text-align: center;
+  padding-top: 7rem;
+}
+
+.products {
+  margin-top: 12rem;
+}
+
+.productsInner {
+  text-align: center;
+  max-width: 136.8rem;
+  margin: 4rem auto 10rem;
+}
+
+.productsInner h2 {
+  font-size: 9.8rem;
+  font-weight: 900;
+  line-height: 9.5rem;
+  letter-spacing: -0.25rem;
+  margin-bottom: 2.8rem;
+}
+
+.productsInner p {
+  font-size: 2.4rem;
+  font-style: italic;
+  color: #aaa;
+  font-family: ff-meta-serif-web-pro, serif;
+}
+
+.foundation {
+  margin-top: 10rem;
+}
+
+.foundation > h2 {
+  font-size: 5rem;
+  text-align: center;
+}

@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 2rem;
+  /* background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.284),
+    rgba(0, 0, 0, 0.5)
+  ); */
+  /* background-color: #fff; */
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  min-width: 50rem;
+}
+
+.header ul li {
+  font-size: 1.8rem;
+  padding: 1rem;
+  transition: all 0.3s;
+}
+
+.header ul li:hover {
+  background-color: #fff;
+  color: #777;
+  font-weight: 600;
+}

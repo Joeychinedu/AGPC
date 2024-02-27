@@ -1,0 +1,45 @@
+.overview {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+
+  height: 100vh;
+  width: 100vw;
+  background-position: top;
+  background-size: cover;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(34, 34, 34, 0.447),
+    rgba(34, 34, 34, 0.447)
+  );
+}
+.overview h2 {
+  font-size: 5rem;
+  font-weight: 900;
+  /* font-family: "Roboto", sans-serif; */
+
+  max-width: 75rem;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+
+.overview button {
+  padding: 1.5rem 2.5rem;
+  border-radius: 25px;
+  background-color: rgba(57, 197, 57);
+  border: none;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.overview button:hover {
+  background-color: rgb(39, 134, 39);
+}

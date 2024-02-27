@@ -1,0 +1,16 @@
+.btn {
+  padding: 1rem 2rem;
+  border-radius: 18px;
+  background-color: rgba(57, 197, 57);
+  border: rgba(57, 197, 57);
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: rgba(57, 197, 57, 0.653);
+  border-color: rgba(57, 197, 57, 0.653);
+}
